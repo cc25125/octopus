@@ -28,6 +28,6 @@ public class Customer {
 
     @Override
     public String toString() {
-        return name + " " + id + " " + discount;
+        return this.name + " " + this.id + " " + this.discount;
     }
 }
