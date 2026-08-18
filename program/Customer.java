@@ -5,10 +5,10 @@ public class Customer {
     private String name;
     private int discount;
 
-    public Customer(int id, String name, int discout) {
+    public Customer(int id, String name, int discount) {
         this.id = id;
         this.name = name;
-        this.discount = discout;
+        this.discount = discount;
     }
 
     public int getId() {
